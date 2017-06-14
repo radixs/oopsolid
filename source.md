@@ -1509,11 +1509,6 @@ it really provides a great returns of the invested time in a self-explanatory co
 * [Variable and method naming](#variableandmethodnaming) - When naming variables scope out your focus the the general logic around the variable. When naming methods make
 sure they quickly and efficiently explain the logic they encapsulate.
 
-# Design Patterns
-TODO coming soon!
-## Static in design patterns
-TODO coming soon!
-
 # Extra: *Do not reinvent the wheel!*
 We did not become developers to do repetitive and boring things. We became developers because we love to tinker, we love to build and see how
 things we make turn the world into a better place. We also want to be recognized and praised for our work since we have spent so much time and energy
@@ -1557,32 +1552,6 @@ having a rapid development cycle.
 
 Another disadvantage of over-engineering is that the extra features you made might actually never be used! Chances are that the extra hours or even days of coding will
 be simply wasted (which directly translates to wasted money).
-
-## Find a blueprint for your *wheel*
-Okay, so where to find the 'wheel' or a blueprint for making one? If you are a PHP developer then you are veeeery lucky - a vast ocean of open source stuff is at your disposal.
-
-### Frameworks
-TODO Hadoop and MongoDB coming soon!
-#### Static in modern frameworks
-TODO coming soon!
-#### Misuse of framework features and conventions.
-I have seen many times when somebody used a helper or an abstract model without reading in what context and in what manner it should be used. Sometimes for example in Zend Framework
-an abstract Row model will be used but if you do not use also the Rowset model and the Table model along then you need to write a whole bunch of functionality yourself. Such way of
-doing things basically makes the use of the framework functionality a little pointless. You are loosing the advantage of being able to use a well thought over convention and the ability
-to seek help in online documentation, tutorials and stackoverflow.
-Whenever you bump into an idea or a class that you think might be useful try to do some research and find examples of how it should be properly used. It will pay off and you might be
-pleasantry surprised that the feature understood in a broader context takes away much more work than you had hoped for.
-### 3rd Party libraries, *less is more*
-TODO coming soon!
-#### Composer
-TODO coming soon!
-#### Bower
-TODO coming soon!
-#### the dangers, overlibrarization
-TODO too many libs = heavy code, to much to learn and keep track of
-
-# Extra: TDD, BDD
-TODO coming soon!
 
 ---
 
