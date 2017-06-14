@@ -3,7 +3,7 @@
  */
 $(document).ready(function() {
     $.ajax({
-        url : "source.txt",
+        url : "source.md",
         dataType: "text",
         cache: false,
         success : function (data) {
